@@ -1,8 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import "../../../styles.css";
-
-import Button from "./index";
+import { Button } from "./Button";
 
 const meta = {
   title: "Example/Button",

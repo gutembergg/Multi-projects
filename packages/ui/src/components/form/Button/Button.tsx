@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
 }
 
-function Button({ children, ...rest }: ButtonProps) {
+export function Button({ children, ...rest }: ButtonProps) {
   return (
     <div>
       <button className={`bg-slate-50  ${rest.className}`} {...rest}>
@@ -15,5 +15,3 @@ function Button({ children, ...rest }: ButtonProps) {
     </div>
   );
 }
-
-export default Button;
